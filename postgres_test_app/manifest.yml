@@ -1,0 +1,8 @@
+---
+applications:
+- disk_quota: 512M
+  name: postgres-test
+  instances: 1
+  memory: 256M
+  services:
+    - postgres-test
